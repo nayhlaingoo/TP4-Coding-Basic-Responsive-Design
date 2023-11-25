@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
+    <header>
+      <h1>Responsive Image Gallery</h1>
+      <p>Resize the browser window to see the responsive effect.</p>
+    </header>
     <div class="gallery">
       <img
         src="https://images.unsplash.com/photo-1682686580452-37f1892ee5e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHx8"
@@ -45,6 +49,10 @@
     </div>
   </body>
   <style>
+    header {
+      text-align: center;
+    }
+
     /* flex container */
     div.gallery {
       display: flex;
@@ -78,6 +86,7 @@
         margin: 16px;
       }
     }
+
     @media screen and (max-width: 480px) {
       img {
         width: 100%;
