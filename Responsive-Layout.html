@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Layout</title>
+  </head>
+  <body>
+    <header><h1>This is my website header</h1></header>
+    <main>
+      <div class="column column1">
+        <h3>COLUMN 1</h3>
+        <br />
+        <article>
+          Sunt in culpa qui officia deserunt mollit anim id est laborum
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco.Sunt in.
+        </article>
+      </div>
+      <div class="column column2">
+        <h3>COLUMN 2</h3>
+        <br />
+        <article>
+          Sunt in culpa qui officia deserunt mollit anim id est laborum
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco.Sunt in.
+        </article>
+      </div>
+      <div class="column column3">
+        <h3>COLUMN 3</h3>
+        <br />
+        <article>
+          Sunt in culpa qui officia deserunt mollit anim id est laborum
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco.Sunt in.
+        </article>
+      </div>
+    </main>
+    <footer>FOOTER</footer>
+  </body>
+
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      padding: 30px 10px;
+      text-align: center;
+      background: #adf8ff;
+    }
+
+    /* making a three column layout */
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      min-height: 250px;
+      text-align: center;
+    }
+    .column {
+      font-size: 19px;
+      padding: 15px;
+    }
+
+    .column1 {
+      /* width takes 20% of the flex container */
+      width: 20%;
+      background-color: orange;
+    }
+
+    .column2 {
+      /* width takes 60% of the flex container */
+      width: 60%;
+      background-color: yellow;
+    }
+
+    .column3 {
+      /* width takes 20% of the flex container */
+      width: 20%;
+      background-color: greenyellow;
+    }
+
+    footer {
+      background-color: pink;
+      text-align: center;
+      padding-block: 20px;
+    }
+
+    /* for tablets and smaller devices. */
+    @media screen and (max-width: 768px) {
+      /* set column1 and column2 to 50% width each */
+      .column1,
+      .column2 {
+        width: 50%;
+      }
+
+      /* set column3 to 100% width */
+      .column3 {
+        width: 100%;
+      }
+    }
+
+    /* for mobile devices */
+    @media screen and (max-width: 450px) {
+      .column1,
+      .column2,
+      .column3 {
+        width: 100%;
+      }
+    }
+  </style>
+</html>
