@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Responsive Layout Replication</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Style the body */
+      body {
+        font-family: Arial;
+        margin: 0;
+      }
+
+      /* Header/logo Title */
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: #00a0ae;
+        color: white;
+      }
+
+      /* Column container */
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      /* Create two unequal columns that sits next to each other */
+      /* Sidebar/left column */
+      .sidebar {
+        flex: 30%;
+        background-color: #f1f1f1;
+        padding: 20px;
+        /* flex-direction: column; */
+      }
+
+      .sidebar > .sidebar-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .sidebar-nav > a {
+        color: #000;
+        padding: 14px 7px;
+        text-decoration: none;
+        text-align: left;
+        background-color: #e0e0e0;
+        cursor: pointer;
+      }
+
+      .sidebar-nav > a:hover {
+        background-color: #c5c5c5;
+      }
+
+      /* Main column */
+      .main {
+        flex: 70%;
+        background-color: white;
+        padding: 20px;
+      }
+
+      /* Footer */
+      .footer {
+        padding: 10px;
+        text-align: center;
+        background: #ddd;
+      }
+
+      /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 700px) {
+        .row {
+          flex-direction: column;
+        }
+        .sidebar > .sidebar-nav {
+          flex-direction: row;
+        }
+        .sidebar-nav a {
+          padding: 9px 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <h1>My Header</h1>
+    </div>
+
+    <!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="sidebar">
+        <h2>Menu</h2>
+        <div class="sidebar-nav">
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+        </div>
+      </div>
+      <div class="main">
+        <h2>About Me</h2>
+        <h5>Hi, I'm John Doe</h5>
+        <p>Some text..</p>
+        <p>
+          Sunt in culpa qui officia deserunt mollit anim id est laborum
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco. Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Et reiciendis qui possimus quibusdam maxime
+          doloremque recusandae similique praesentium aperiam eaque dolorem
+          asperiores, fugit, nulla quam quia blanditiis obcaecati! Porro,
+          incidunt!
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <h2>Footer</h2>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Discord</a>
+    </div>
+  </body>
+</html>
