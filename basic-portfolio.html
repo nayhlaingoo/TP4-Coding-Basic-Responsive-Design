@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        color: #383838;
+        font-family: sans-serif;
+      }
+      h1,
+      h2,
+      button {
+        border: 1px solid #2d9dff;
+        width: fit-content;
+        padding: 0.5rem;
+        border-radius: 5px;
+        color: #2d9dff;
+      }
+      button {
+        padding-inline: 1rem;
+      }
+      h1,
+      button {
+        background-color: #2d9dff;
+        color: #fff;
+      }
+      table,
+      td {
+        border: 2px solid #2d9dff;
+        border-collapse: collapse;
+        padding: 0.5rem;
+        width: fit-content;
+        border-radius: 5px;
+      }
+      form {
+        padding: 1.2rem;
+        border: 2px solid #2d9dff;
+        width: fit-content;
+      }
+      label {
+        display: inline-block;
+        width: 95%;
+      }
+      #name,
+      #email,
+      #message {
+        width: 100%;
+        padding: 5px 0px 5px 5px;
+        margin-block: 0.5rem;
+        border: 1px solid #2d9dff;
+        border-radius: 5px;
+      }
+      a {
+        color: #2d9dff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Resume</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>This is me</h2>
+
+        <img
+          width="100"
+          height="150"
+          src="https://images.unsplash.com/photo-1614204424926-196a80bf0be8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+          alt="My Avatar"
+        />
+
+        <p>
+          Make tutorial videos on "The Perfect 404" facebook page for people who
+          are willing to learn coding and embark on their programming journey🫶.
+        </p>
+      </section>
+
+      <br />
+
+      <section>
+        <h2>Work Experience</h2>
+
+        <div>
+          <h4>The Perfect 404, Software Developer</h4>
+
+          <ul>
+            <li>
+              Write modern, performatn, maintainable code for a diverse array of
+              projects.
+            </li>
+            <li>
+              Work with a variety of different languages, platforms, frameworks,
+              and plugins such as JavaScript, Vue, Tailwind, AWS, Stripe.
+            </li>
+            <li>
+              Communicate with multi-disciplinary teams of developers,
+              designers, product manager, and clients.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <br />
+
+      <section>
+        <h2>Stacks</h2>
+
+        <table>
+          <tr>
+            <td><b>Designing</b></td>
+            <td>Figma, Canva, Webflow</td>
+          </tr>
+          <tr>
+            <td><b>UI Development</b></td>
+            <td>Css, Sass, Tailwind, Bootstrap</td>
+          </tr>
+          <tr>
+            <td><b>Frontend</b></td>
+            <td>JavaScript, Vue, Svelte</td>
+          </tr>
+          <tr>
+            <td><b>Backend</b></td>
+            <td>Node, Sql, Graphql</td>
+          </tr>
+        </table>
+      </section>
+
+      <br />
+
+      <section>
+        <h2>Contact Me</h2>
+
+        <form>
+          <div>
+            <label for="name">
+              Your name:
+              <input id="name" name="name" type="text" placeholder="John Doe" />
+            </label>
+          </div>
+
+          <div>
+            <label for="email">
+              Your email:
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="john@doe.com"
+              />
+            </label>
+          </div>
+
+          <div>
+            <label for="message">
+              Your message:
+              <div>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="50"
+                  rows="5"
+                ></textarea>
+              </div>
+            </label>
+          </div>
+
+          <button>Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Find me here:</h2>
+      <p>
+        <a href="https://github.com/theperfect404" target="_blank">Github</a>,
+        <a href="https://www.facebook.com/theperfect404" target="_blank"
+          >Facebook</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
