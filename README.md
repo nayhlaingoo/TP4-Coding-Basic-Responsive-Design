@@ -10,4 +10,6 @@
 <br><br>
 [Responsive Layout Replication](http://127.0.0.1:5501/layout-replication.html)
 <br><br>
-[Basic-Portfolio](https://nayhlaingoo.github.io/TP4-Coding-Basic-Responsive-Design/basic-portfolio)
+[Basic Portfolio](https://nayhlaingoo.github.io/TP4-Coding-Basic-Responsive-Design/basic-portfolio)
+<br><br>
+[Responsive User Profile Card](https://nayhlaingoo.github.io/TP4-Coding-Basic-Responsive-Design/responsive-user-profile-card)
