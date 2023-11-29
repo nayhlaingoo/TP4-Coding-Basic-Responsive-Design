@@ -2,16 +2,18 @@
 
 <br>
 
-[Responsive Menu Example](https://nayhlaingoo.github.io/TP4-Coding-Basic-Responsive-Design/)
+[The Structrue Of Portfolio Website](https://nayhlaingoo.github.io/TP4-Coding-Basic-Projects/structure-of-portfolio)
 <br><br>
-[Responsive Layout Example](https://nayhlaingoo.github.io/TP4-Coding-Basic-Responsive-Design/responsive-layout)
+[Responsive Menu Example](https://nayhlaingoo.github.io/TP4-Coding-Basic-Projects/)
 <br><br>
-[Resopnsive Image Gallery Example](https://nayhlaingoo.github.io/TP4-Coding-Basic-Responsive-Design/responsive-image-gallery)
+[Responsive Layout Example](https://nayhlaingoo.github.io/TP4-Coding-Basic-Projects/responsive-layout)
 <br><br>
-[Responsive Layout Replication](http://127.0.0.1:5501/layout-replication.html)
+[Resopnsive Image Gallery Example](https://nayhlaingoo.github.io/TP4-Coding-Basic-Projects/responsive-image-gallery)
 <br><br>
-[Basic Portfolio](https://nayhlaingoo.github.io/TP4-Coding-Basic-Responsive-Design/basic-portfolio)
+[Responsive Layout Replication](https://nayhlaingoo.github.io/TP4-Coding-Basic-Projects/layout-replication.html)
 <br><br>
-[Responsive User Profile Card](https://nayhlaingoo.github.io/TP4-Coding-Basic-Responsive-Design/responsive-user-profile-card)
+[Basic Portfolio](https://nayhlaingoo.github.io/TP4-Coding-Basic-Projects/basic-portfolio)
 <br><br>
-[Final Project: Build Your Portfolio](https://nayhlaingoo.github.io/TP4-Coding-Basic-Responsive-Design/portfolio/)
+[Responsive User Profile Card](https://nayhlaingoo.github.io/TP4-Coding-Basic-Projects/responsive-user-profile-card)
+<br><br>
+[Final Project: Build Your Portfolio](https://nayhlaingoo.github.io/TP4-Coding-Basic-Projects/portfolio/)
