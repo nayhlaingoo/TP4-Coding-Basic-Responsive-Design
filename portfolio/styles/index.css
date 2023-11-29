@@ -1,0 +1,80 @@
+:root {
+  --primary-green: #64ffda;
+  --secondary-gray: #ccd6f6;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --text-7xl: 4.5rem;
+}
+
+/* Remove Default Style */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-padding-top: 9rem;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+  background-color: #0a192f;
+  color: #8892b0;
+}
+
+main {
+  width: 100%;
+  padding-inline: 15px;
+  margin: 0 auto;
+  max-width: 48rem;
+}
+
+section {
+  scroll-snap-align: center;
+}
+
+@media (min-width: 640px) {
+  main {
+    padding-inline: 25px;
+  }
+}
+
+@media (min-width: 1280px) {
+  main {
+    max-width: 64rem;
+  }
+}
+
+/* .underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(var(--primary-green), var(--primary-green));
+  background-size: 0 2px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out;
+} */
+
+/* .underline:hover {
+  background-size: 100% 2px;
+  background-position: 0 100%;
+} */
+
+.highlight {
+  color: var(--primary-green);
+}
