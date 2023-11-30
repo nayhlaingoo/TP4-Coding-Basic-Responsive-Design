@@ -17,3 +17,5 @@
 [Responsive User Profile Card](https://nayhlaingoo.github.io/TP4-Coding-Basic-Projects/responsive-user-profile-card)
 <br><br>
 [Final Project: Build Your Portfolio](https://nayhlaingoo.github.io/TP4-Coding-Basic-Projects/portfolio/)
+<br><br>
+[Newsletter](https://nayhlaingoo.github.io/TP4-Coding-Basic-Projects/newsletter)
